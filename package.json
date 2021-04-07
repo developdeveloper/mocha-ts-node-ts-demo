@@ -1,0 +1,23 @@
+{
+  "name": "mocha-ts-node-ts-demo",
+  "version": "1.0.0",
+  "description": "learn mocha with ts support",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "test": "nyc mocha -r ts-node/register -r tsconfig-paths/register test/**/*.ts",
+    "build": "tsc -d"
+  },
+  "keywords": [],
+  "author": "Bob Wang <1982wb@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.2.16",
+    "@types/mocha": "^8.2.2",
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2",
+    "nyc": "^15.1.0",
+    "ts-node-register": "^1.0.0",
+    "tsconfig-paths": "^3.9.0"
+  }
+}

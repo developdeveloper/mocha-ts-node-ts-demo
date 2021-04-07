@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "commonjs",
+    "sourceMap": true,
+    "downlevelIteration": true,
+    "allowJs": true,
+    "strict": false,
+    "baseUrl": "./",
+    "outDir": "./dist/",
+    "paths": {
+      "~/*": [ "./src/*" ]
+    },
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "test"
+  ]
+}
